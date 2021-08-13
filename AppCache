@@ -1,0 +1,12 @@
+Description: Windows Search/Cortana MRU(앱 실행 이력)
+Author: MinYeong Kang
+Version: 1.0
+Id: AppCache
+RecreateDirectories: true
+Targets:
+    -
+        Name: $AppCache
+        Category: PJHmento
+        Path: %LocalAppData%\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\DeviceSearchCache
+        FileMask: 'AppCache*.txt'
+     
