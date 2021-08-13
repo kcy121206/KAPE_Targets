@@ -1,0 +1,12 @@
+Description: INSTALL (프로그램 설치 로그)
+Author: MinYeong Kang
+Version: 1.0
+Id: INSTALL
+RecreateDirectories: true
+Targets:
+    -
+        Name: INSTALL
+        Category: PJHmento
+        Path: %WINDIR%\appcompat\Programs\Install
+        FileMask: 'INSTALL_*.txt'
+     
